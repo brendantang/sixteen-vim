@@ -4,8 +4,6 @@
 " (https://github.com/jeffkreeftmeijer/vim-dim),
 " which is a good option if you want more dynamic Visual highlighting
 "
-"
-" This works for me with light and dark backgrounds
 
 
 hi! clear
@@ -24,9 +22,12 @@ highlight Question       ctermfg=2
 highlight Title          ctermfg=5
 highlight WarningMsg     ctermfg=1
 highlight WildMenu       ctermfg=0 ctermbg=11
+highlight Folded         ctermfg=7 ctermbg=8
+highlight FoldColumn     ctermfg=7 ctermbg=8
 highlight Conceal        ctermfg=7 ctermbg=7
-highlight SpellBad       ctermbg=2
-highlight SpellRare      ctermbg=5
+highlight SpellBad       ctermfg=15 ctermbg=1 cterm=underline
+highlight SpellCap       ctermbg=NONE cterm=underline
+highlight SpellRare      ctermbg=5 
 highlight SpellLocal     ctermbg=14
 highlight PmenuSbar      ctermbg=8
 highlight PmenuThumb     ctermbg=0
@@ -47,4 +48,11 @@ highlight Ignore         ctermfg=15
 highlight Error          ctermfg=15 ctermbg=9
 highlight Todo           ctermfg=0 ctermbg=11
 highlight Visual         ctermfg=0 ctermbg=13 
+highlight SignColumn     ctermbg=8
+highlight Pmenu          ctermfg=15 ctermbg=8
+highlight PmenuSel       ctermfg=8 ctermbg=15
+highlight StatusLineTerm  cterm=bold ctermfg=0 ctermbg=10
+highlight StatusLineTermNC  ctermfg=0 ctermbg=10
+highlight ToolbarLine    cterm=underline ctermbg=8
+
 " 10 is also unused (bright green) so that could be another option for Visual
