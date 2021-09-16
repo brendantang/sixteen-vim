@@ -48,11 +48,15 @@ highlight Ignore         ctermfg=15
 highlight Error          ctermfg=15 ctermbg=9
 highlight Todo           ctermfg=0 ctermbg=11
 highlight Visual         ctermfg=0 ctermbg=13 
-highlight SignColumn     ctermbg=8
+highlight SignColumn     ctermbg=0
 highlight Pmenu          ctermfg=15 ctermbg=8
 highlight PmenuSel       ctermfg=8 ctermbg=15
 highlight StatusLineTerm  cterm=bold ctermfg=0 ctermbg=10
 highlight StatusLineTermNC  ctermfg=0 ctermbg=10
 highlight ToolbarLine    cterm=underline ctermbg=8
+
+highlight TabLineSel    ctermfg=0 ctermbg=7
+highlight TabLine     ctermfg=8 ctermbg=0
+highlight TabLineFill     ctermfg=0
 
 " 10 is also unused (bright green) so that could be another option for Visual
